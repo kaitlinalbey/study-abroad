@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Video Carousel</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="carousel-container">
+    <div class="video-title" id="videoTitle">Overall Highlights</div>
+    <video id="videoPlayer" controls>
+      <source src="OverallHighlights.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+    <div class="controls">
+      <button onclick="prevVideo()">Previous</button>
+      <button onclick="nextVideo()">Next</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
